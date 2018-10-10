@@ -10,7 +10,7 @@
 		?>
 		<script>
 			alert ("File Size Exceeded");
-			window.location.href = "edit profile.php";
+			window.location.href = "editprofile.php";
 		</script>
 		<?php
 		exit;
@@ -41,8 +41,8 @@
 		$upload = move_uploaded_file($_FILES['img']['tmp_name'],$server_path) or die($_FILES['img']['error']);
 		if($upload) {
 			if($_SESSION['log1']=="client") {
-			#save data
-			$saveData = mysqli_query($con,"UPDATE client SET Dp='$server_path' WHERE Id='$id' ")or die(mysqli_error());
+				#save data
+				$saveData = mysqli_query($con,"UPDATE client SET Dp='$server_path' WHERE Id='$id' ")or die(mysqli_error());
 			} else if($_SESSION['log1']=="doctor") {
 				#save data
 				$saveData = mysqli_query($con,"UPDATE doctor SET Dp='$server_path' WHERE Id='$id' ")or die(mysqli_error());
@@ -51,7 +51,7 @@
 				?>
 				<script>
 					alert ("File uploaded successfully");
-					window.location.href = "view profile.php";
+					window.location.href = "viewprofile.php";
 				</script>
 				<?php
 			}
@@ -62,7 +62,7 @@
 		?>
 		<script>
 			alert ("File type should be .jpg or .jpeg only");
-			window.location.href = "edit profile.php";
+			window.location.href = "editprofile.php";
 		</script>
 		<?php
 	}
