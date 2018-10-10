@@ -227,8 +227,9 @@ include('session_check.php');
                   <?php 
                   $sql=mysqli_query($con,"SELECT * FROM doctor_app WHERE User_id='$id'");
                   while($row=mysqli_fetch_array($sql)) {
-                    $sts=$row['Status'];
-                    if($sts=="Rejected") {
+                    // $sts=$row['Status'];
+                    // if($sts=="Rejected") {
+                    if(0) {                    
                     ?>
                       <ul class="opening-table">
                         <li><a>Rejected by Doctor</a></li>
@@ -265,7 +266,7 @@ include('session_check.php');
                   <span class="fa fa-flask"></span>
                   <h3>Patient</h3>
                   <?php 
-                  $sql=mysqli_query($con,"SELECT * FROM doctor_app WHERE Doc_name='$name' and Status!='$status' ");
+                  $sql=mysqli_query($con,"SELECT * FROM doctor_app WHERE Doc_name='$name' ");
                     while($row=mysqli_fetch_array($sql)) {
                     ?>
                     <ul class="opening-table">
@@ -284,7 +285,7 @@ include('session_check.php');
                   <span class="fa fa-clock-o"></span>
                   <h3>Appointment Details</h3>
                   <?php 
-                  $sql=mysqli_query($con,"SELECT * FROM doctor_app WHERE Doc_name='$name' and Status!='$status' ");
+                  $sql=mysqli_query($con,"SELECT * FROM doctor_app WHERE Doc_name='$name' ");
                   while($row=mysqli_fetch_array($sql)) {
                   ?>
                   <ul class="opening-table">
@@ -309,7 +310,7 @@ include('session_check.php');
                   <span class="fa fa-hospital-o"></span>
                   <h3>Cancel</h3>
                   <?php 
-                  $sql=mysqli_query($con,"SELECT * FROM doctor_app WHERE Doc_name='$name' and Status!='$status' ");
+                  $sql=mysqli_query($con,"SELECT * FROM doctor_app WHERE Doc_name='$name' ");
                   while($row=mysqli_fetch_array($sql)) {
                   ?>
                   <ul class="opening-table">

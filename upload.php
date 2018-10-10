@@ -180,7 +180,7 @@ include('session_check.php');
               <h3>Doctor Appointment</h3>
                 <?php 
                 $status="Rejected";
-                $sql=mysqli_query($con,"SELECT * FROM doctor_app WHERE Status!='$status' ");
+                $sql=mysqli_query($con,"SELECT * FROM doctor_app ");
                 while($row=mysqli_fetch_array($sql)) {
                 ?>
                 <ul class="opening-table">
@@ -202,7 +202,7 @@ include('session_check.php');
               <h3>Appointment Details</h3>
               <?php 
               $status="Rejected";
-              $sql=mysqli_query($con,"SELECT * FROM doctor_app WHERE Status!='$status' ");
+              $sql=mysqli_query($con,"SELECT * FROM doctor_app ");
               while($row=mysqli_fetch_array($sql))
                 {
               ?>
@@ -229,7 +229,7 @@ include('session_check.php');
               <h3>Report</h3>
               <?php 
               $status="Rejected";
-              $sql=mysqli_query($con,"SELECT * FROM doctor_app WHERE Status!='$status' ");
+              $sql=mysqli_query($con,"SELECT * FROM doctor_app ");
               while($row=mysqli_fetch_array($sql))
                 {
               ?>
