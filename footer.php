@@ -53,8 +53,8 @@
           <address class="contact-info">
             <p><span class="fa fa-home"></span>VIT University
             Vellore, TN 632014, <i>India</i></p>
-            <p><span class="fa fa-phone"></span>9830768030</p>
-            <p><span class="fa fa-envelope"></span>piyush.bhutoria98@gmail.com</p>
+            <p><span class="fa fa-phone"></span>9568414200</p>
+            <p><span class="fa fa-envelope"></span>agarwalkush27@gmail.com</p>
           </address>
           </div>
         </div>
