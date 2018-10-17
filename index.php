@@ -93,7 +93,7 @@ include("config.php");
             <h2>The<strong>One Stop</strong> for all your Health Needs</h2>
             <p><strong >SPA PathCare </strong>Providing the Best in Class Services</p>
             <div class="readmore_area">
-              <a data-hover="Read More" href="#"><span>Read More</span></a>                
+              <a data-hover="Read More" href="#topFeature"><span>Read More</span></a>                
             </div>
           </div>
         </div>
