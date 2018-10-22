@@ -3,7 +3,7 @@ include('config.php');
 session_start();
 ?>
 <h3>Upload Report</h3>
-<form method="post" enctype="multipart/form-data">
+<form method="post" action="uploadcode1.php" enctype="multipart/form-data">
 <table>
 	<tr>
 		<td>File Name</td>
