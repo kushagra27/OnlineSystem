@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-lg-12 col-md-12">
         <div class="meetDoctors-area">
-          <!-- Start Service Title -->
+          <!-- Start Service Titl -->
           <div class="section-heading">
             <h2>Meet Our Doctors</h2>
             <div class="line"></div>
