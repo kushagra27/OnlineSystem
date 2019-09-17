@@ -13,7 +13,7 @@
 	$qry1  =  mysqli_query($con,"SELECT * FROM client WHERE Email = '$email'");
 	$qry2  =  mysqli_num_rows($qry1);
 	if($qry2 == 0 and $pwd == $repwd) {
-		$qry = mysqli_query($con,"INSERT INTO client (Name, Email, Dob, Gender, Address, Phoneno, Password) VALUES ('$fname', '$email','$dob','$gnd','$addr','$phno','$pwd')")or die(mysqli_error());
+		$qry = mysqli_query($con,"INSERT INTO client (Name, Email, Dob, Gender, Address, Phoneno, Password,Dp) VALUES ('$fname', '$email','$dob','$gnd','$addr','$phno','$pwd','')")or die(mysqli_error($con));
 		?>
 		<script>
 			alert ("Registered Successfullly");
