@@ -67,15 +67,15 @@
       <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
         <div class="footer-copyright">
-          <?php echo "<p>&copy; Copyright 2016-" . date("Y") . " <a href=\"index.html\">SPA Pathcare</a></p>"; ?>
+          <?php echo "<p>&copy; Copyright " . date("Y") . " <a href=\"index.html\">SPA Pathcare</a></p>"; ?>
         </div>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
         <div class="footer-social">              
-          <a href="https://www.facebook.com/imidiotic12"><span class="fa fa-facebook"></span></a>
-          <a href="https://twitter.com/piyushbhutoria9"><span class="fa fa-twitter"></span></a>
-          <a href="https://github.com/Piyushhbhutoria"><span class="fa fa-github"></span></a>
-          <a href="https://www.linkedin.com/in/piyushh-bhutoria-for-you/"><span class="fa fa-linkedin"></span></a>     
+          <a href="https://www.facebook.com/"><span class="fa fa-facebook"></span></a>
+          <a href="https://twitter.com/"><span class="fa fa-twitter"></span></a>
+          <a href="https://github.com/kushagra27"><span class="fa fa-github"></span></a>
+          <a href="https://www.linkedin.com/in/kushagra-agarwal/"><span class="fa fa-linkedin"></span></a>     
         </div>
       </div>
     </div>

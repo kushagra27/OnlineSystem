@@ -93,7 +93,7 @@ include("config.php");
             <h2>The<strong>One Stop</strong> for all your Health Needs</h2>
             <p><strong >SPA PathCare </strong>Providing the Best in Class Services</p>
             <div class="readmore_area">
-              <a data-hover="Read More" href="#"><span>Read More</span></a>                
+              <a data-hover="Read More" href="#topFeature"><span>Read More</span></a>                
             </div>
           </div>
         </div>
@@ -224,7 +224,7 @@ include("config.php");
                             </form>
                           </div>
                         </div> 
-                        <div class="modal-header">
+                        <div class="modal-head3000/er">
                           <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                           <h4 class="modal-title" id="myModalLabel">Doctor Appoinment Details</h4>
                         </div>
@@ -291,7 +291,7 @@ include("config.php");
     <!-- jQuery Library  -->
     <script src="js/jquery.js"></script>    
     <!-- Bootstrap default js -->
-    <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="js/bootstrap.min.js"></script> -->
     <!-- slick slider -->
     <script src="js/slick.min.js"></script>    
     <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>      
